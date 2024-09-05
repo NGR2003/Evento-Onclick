@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <nav>
+        <h1>PetLopedia</h1>
+
+        <div>
+            <input type="text" class="busqueda" placeholder="Buscar..." name="query">
+        </div>
+
+        <div>
+            <button id="btn-inicio" class="btn-inicio">Iniciar sesión</button>
+        </div>
+    </nav>
+
+    <main>
+        <div>
+            <div class="content">
+                <h2>Gato Atigrado</h2>
+                <p>sustantivo</p>
+                <p>
+                    Plural: Gatos Atigrados
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ullam dolor a, aliquam ducimus
+                    iusto
+                </p>
+                <button id="gato" class="megusta"><span id="conteo_gato"> 22 </span> me gusta</button>
+            </div>
+            <div class="content">
+                <h2>Golden Retriever</h2>
+                <p>sustantivo</p>
+                <p>
+                    Plural: Golden Retrievers
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ullam dolor a, aliquam ducimus
+                    iusto
+                </p>
+                <button id="perro" class="megusta"><span id="conteo_perro"> 45 </span> me gusta</button>
+            </div>
+        </div>
+        <div id="contenedor-l" class="content">
+            <h2>PetLopedia está definida por TI</h2>
+            <button id="definicion" class="a-definicion">Agregar Definición</button>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
